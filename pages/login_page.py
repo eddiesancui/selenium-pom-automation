@@ -3,8 +3,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class LoginPage:
-    USERNAME_INPUT = (By.ID, "username")
-    PASSWORD_INPUT = (By.ID, "password")
+    USERNAME_INPUT = (By.ID, "Admin")
+    PASSWORD_INPUT = (By.ID, "admin123")
     LOGIN_BUTTON   = (By.ID, "loginBtn")
 
     def __init__(self, driver, timeout: int = 10):
@@ -15,7 +15,7 @@ class LoginPage:
         el = self.wait.until(EC.visibility_of_element_located(self.USERNAME_INPUT))
         el.clear(); el.send_keys(username)
         assert el.get_attribute("value") == username, "Username input failed"
-
+        
     def enter_password(self, password: str):
         el = self.wait.until(EC.visibility_of_element_located(self.PASSWORD_INPUT))
         el.clear(); el.send_keys(password)

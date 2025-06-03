@@ -1,22 +1,24 @@
+import pytest
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from pages.login_page import LoginPage
+from pages.home_page import HomePage
 
-class HomePage:
-    DASHBOARD = (By.ID, "dashboard")   # Visible after successful login
-    LOGOUT_BUTTON = (By.ID, "logoutBtn")
+LOGIN_URL  = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"   # <-- This is where you put the URL
+USERNAME   = "testuser"
+PASSWORD   = "testpassword"
 
-    def __init__(self, driver, timeout: int = 10):
-        self.driver = driver
-        self.wait   = WebDriverWait(driver, timeout)
-        # Ensure we really are on the home/dashboard page
-        assert self.wait.until(EC.visibility_of_element_located(self.DASHBOARD)), \
-               "Dashboard element not visible; not on Home page"
+@pytest.mark.smoke
+def test_login_then_logout(driver):
+    driver.get(LOGIN_URL)
 
-    def logout(self):
-        self.wait.until(EC.element_to_be_clickable(self.LOGOUT_BUTTON)).click()
-        # Assert that login page is visible again
-        from pages.login_page import LoginPage   # local import avoids circular dependency
-        assert self.wait.until(
-            EC.visibility_of_element_located(LoginPage.LOGIN_BUTTON)
-        ), "Login button not visible after logout"
+    # ---------- Login ----------
+    login_page = LoginPage(driver)
+    login_page.login(USERNAME, PASSWORD)
+
+    # ---------- Post-login checks & Logout ----------
+    home_page = HomePage(driver)   # constructor already asserts dashboard visibility
+    home_page.logout()
+
+    # ---------- Final assertion (redundant but explicit) ----------
+    assert driver.find_element(*LoginPage.LOGIN_BUTTON).is_displayed(), \
+           "User is not back on the login page after logout"
