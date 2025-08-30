@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eebea5f-4389-41db-8cd9-c3e4fb554eb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/LoginTestsWithParams.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginTestsWithParams" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../screenshots/login_Admin_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../screenshots/login_empty_user_fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../screenshots/login_user_fail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +59,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Import&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in logout.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Testing",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/eddie/PycharmProjects/selenium-pom-automation"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests in logout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pom-automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/logout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in logout.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
       </set>
     </attachedChunks>
   </component>
