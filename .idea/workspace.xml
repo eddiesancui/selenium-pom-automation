@@ -17,10 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../screenshots/login_Admin_success.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../screenshots/login_empty_user_fail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../screenshots/login_user_fail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/logout.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "GMorning",
+    "git-widget-placeholder": "Adjustments",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/eddie/PycharmProjects/selenium-pom-automation"
   }
