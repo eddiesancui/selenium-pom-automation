@@ -18,8 +18,9 @@
       <change beforePath="$PROJECT_DIR$/../screenshots/login_empty_user_fail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../screenshots/login_user_fail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/logout.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +64,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for tests.logout.test_login_then_logout.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in logout.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Testing&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eddie/PycharmProjects/selenium-pom-automation&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.logout.test_login_then_logout.executor": "Run",
+    "Python tests.Python tests in logout.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "GMorning",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/eddie/PycharmProjects/selenium-pom-automation"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eddie\PycharmProjects\selenium-pom-automation\data" />
+      <recent name="C:\Users\eddie\PycharmProjects\selenium-pom-automation\tests" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for tests.logout.test_login_then_logout">
     <configuration name="Python tests for tests.logout.test_login_then_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="selenium-pom-automation" />
