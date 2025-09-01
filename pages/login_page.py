@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class LoginPage:
     USERNAME_INPUT = (By.ID, "Admin")
     PASSWORD_INPUT = (By.ID, "admin123")
-    LOGIN_BUTTON   = (By.ID, "loginBtn")
+    LOGIN_BUTTON   = (By.ID, "//button[normalize-space()='Login']")
 
     def __init__(self, driver, timeout: int = 10):
         self.driver = driver
