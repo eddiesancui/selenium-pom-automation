@@ -15,3 +15,8 @@ def test_login_dashboard_logout(driver):
 
     logout_page = dashboard_page.click_logout()
     assert logout_page.is_returned_to_login()
+
+# Run Pytest in Terminal:
+# 	pytest – this to run the script
+# 	pytest -v – this is to run the script with verbose mode (clear test results)
+#   pytest --html=report.html --self-contained-html – to run script with report generation
