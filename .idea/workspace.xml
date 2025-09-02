@@ -18,7 +18,7 @@
       <change beforePath="$PROJECT_DIR$/../screenshots/login_empty_user_fail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../screenshots/login_user_fail.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "DONE",
+    "git-widget-placeholder": "RUNNOTES",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/eddie/PycharmProjects/selenium-pom-automation"
   }
